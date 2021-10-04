@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,9 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.course-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(12rem, 17rem));
 }
